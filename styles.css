@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Gluten:wght@100..900&family=Indie+Flower&display=swap');
+
+/* Main */
+* {
+    text-align: center;
+}
+
+body {
+    background-color: #eadcc0;
+    border: 30px solid #5b4033;
+    margin: 0;
+}
+
+ main {
+    margin-top: 10vh;
+    padding: 0 5vw;
+}
+
+h1, h2 {
+    font-family: 'Gluten', sans-serif;
+    color: #5b4033;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+h1 { font-size: 5em; }
+h2 { font-size: 2.5em; }
+
+h3, p, a {
+    font-family: 'Indie Flower', sans-serif;
+    color: #5b4033;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+p {
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+#Me p {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+/* Header */
+header p {
+    margin: 5vw 5vw;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5vw;
+    padding: 0;
+    margin: 0;
+}
+
+.sec{
+    display: block;
+    padding: 0vw;
+    margin-right: 1vw;
+    width: 4vw;
+    height: 8vw;
+    border-radius: 0 0 2vw 2vw;
+    transition: height 0.3s ease-in-out, background 0.3s;
+    box-shadow: 3px 3px 10px #00000033;
+}
+
+.sec-1 { background: #a67b5b; }
+.sec-2 { background: #Be9b79; } 
+.sec-3 { background: #9d7b6c; } 
+.sec-4 { background: #d2b48c; } 
+
+.sec:hover {
+    height: 10vw;
+    box-shadow: 5px 5px 15px #3b17174d;
+}
+
+/* Images */
+img {
+    max-width: 60vw;
+    height: 50vw;
+    object-position: center;
+}
+
+img:hover {
+    transform: scale(1.02) skew(-1deg, -1deg);
+}
+
+#mypic {
+    max-width: 40vw;
+    max-height: 40vw;
+    margin-bottom: 2vw;
+    box-shadow: 0px 1px 0px #3b17174d;
+}
+
+ /* Footer */
+ footer {
+    background-color: #5b4033;
+    font-size: 0.6em;
+}
+
+footer p {
+    color: #eadcc0;
+    margin: 0;
+}
+
+hr {
+    margin-top: 7vw;
+    border: 1px solid #433821;
+}
+
+/* cute little design for this assignment */
